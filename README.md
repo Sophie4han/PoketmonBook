@@ -16,26 +16,27 @@ RxSwift 기반의 iOS 앱으로 포켓몬 API를 활용하여 포켓몬 목록�
 |-----------------------|-------------------------------------------------------------------------------------------------------------|
 
 ---
-
-## 폴더 구성
+```
 PokédexApp/
 ├── Model/
-│   ├── Model
+│   └── Model.swift
 ├── Network/
-│   ├── NetworkManager
+│   └── NetworkManager.swift
 ├── View/
-│   ├── CollectionCell
-│   ├── DetailView
+│   ├── CollectionCell.swift
+│   └── DetailView.swift
 ├── ViewController/
-│   ├── ViewController
-│   ├── DetailViewController
+│   ├── ViewController.swift
+│   └── DetailViewController.swift
 ├── ViewModel/
-│   ├── ViewModel
-│   ├── DetailViewModel
+│   ├── ViewModel.swift
+│   └── DetailViewModel.swift
 ├── Extensions/
-│   └── UIColor+Extension
-└── Resources/
-    └── Assets
+│   └── UIColor+Extension.swift
+├── Resources/
+│   └── Assets.xcassets
+''
+```
 
 ## 회고
 - RxSwift를 실제 UI와 네트워크에 적용하며 Input/Output 패턴을 경험
